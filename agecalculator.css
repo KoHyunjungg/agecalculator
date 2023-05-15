@@ -1,0 +1,60 @@
+*{font-family: 'Noto Sans KR', sans-serif;}
+
+
+
+.container {
+    background-color: #212A3E;
+    color: #F1F6F9;
+    height: 335px;
+    width: 400px;
+    display: block;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 25px;
+    padding-top: 40px;
+    margin: 0%;
+}
+
+.title p {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0%;
+}
+
+.calculator {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* 입력칸 */
+.input-birthday {
+    padding: 10px;
+}
+
+#birthday {
+    padding: 8px 91px;
+    border-radius: 3px;
+    border:none;
+}
+
+/* botton */
+.submit {
+    text-align: center;
+    background-color: #394867;
+    border:none;
+    border-radius: 3px;
+    color: #F1F6F9;
+    width: 250px;
+    height: 30px;
+}
+
+.submit:hover {
+    color: #9BA4B5;
+}
+
+.output-age {
+    padding-top: 35px;
+}
